@@ -19,5 +19,4 @@ encender: function (encendido){
 }
 }
 
-
 auto.encender();
