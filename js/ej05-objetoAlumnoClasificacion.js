@@ -47,8 +47,8 @@ do{
 
 agregarNotas();
 
-document.writeln(`<table>`);
-document.writeln(`<tr><th>Nombre</th><th>Curso</th><th>Notas</th><th>Clasificación</th></tr>`);
+document.writeln(`<table class='table table-bordered text-center'>`);
+document.writeln(`<thead><tr><th>Nombre</th><th>Curso</th><th>Notas</th><th>Clasificación</th></tr></thead><tbody>`);
 
 for (let i = 0; i < alumnos.length; i++) {
     const alumno = alumnos[i];
@@ -62,5 +62,5 @@ for (let i = 0; i < alumnos.length; i++) {
     </tr>`);
 }
 
-document.writeln(`</table>`);
+document.writeln(`</tbody></table>`);
 
