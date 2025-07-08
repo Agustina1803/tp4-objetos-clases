@@ -122,6 +122,7 @@ eliminarContacto(contacto) {
 
 }
 
+const miAgenda = new Agenda();
 
 do{
   const opcion = prompt("Seleccione una opcion : 1-Añadir contacto , 2-Listar Contacto, 3-Buscar contacto, 4-Existe Contacto, 5-Eliminar Contacto, 6-Info de agenda llena, 7-Info de espacio libre en agenda ");
