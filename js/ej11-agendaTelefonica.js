@@ -83,8 +83,8 @@ listarContactos(){
 }
 
 buscarContacto(nombre){
-    const encontrado = null;
-    for(i=0; i< this.#contactos.length; i++){
+    let encontrado = null;
+    for(let i=0; i< this.#contactos.length; i++){
         if (this.#contactos[i].nombre.toLowerCase() !== nombre.toLowerCase()){
             encontrado = this.#contactos[i];
         }
