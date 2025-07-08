@@ -24,7 +24,7 @@ class Contacto {
     }
 
     mostrarContacto() {
-    return `${this.nombre} - ${this.telefono}`;
+    return  document.writeln(`${this.nombre} - ${this.telefono}`);
   }
 }
 
