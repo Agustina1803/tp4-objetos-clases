@@ -43,7 +43,7 @@ agendaLlena(){
 }
 
 huecosLibres(){
-    const espacioLibre = this.#tamanio - this.#contactos.length;
+    let  espacioLibre = this.#tamanio - this.#contactos.length;
     document.writeln(`Espacio Libre: ${espacioLibre}`);
 }
 
